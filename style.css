@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, "Times New Roman", sans-serif;
+    font-size: 16px;
+    background-color: #a7a7a7;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#slogan {
+    position: absolute;
+    height: 80px;
+    top: 40px;
+    left: 450px;
+}
+#masterhead img{
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+#wrap {
+    background-color: white;
+    width: 960px;
+    border: 1px solid black;
+    margin: 0 auto; /*Đưa khối wrap ra chính giữa */
+}
+
+/*
+#inwrap {
+    background-image: url(../images/390285-blue-web-background.jpg);
+    background-repeat: repeat-x;
+}
+*/
+#inwrap:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+#mainav {
+    background-color: #8b76ff;
+    height: 35px;
+}
+
+#mainav li {
+    float: left;
+    width: 120px;
+    height: 35px;
+    background-color: #9ea1bd;
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    line-height: 35px; /* Đặt line-height bằng height để căn chữ ra giữa theo chiều thẳng đứng */
+}
+
+#mainav a {
+    text-decoration: none;
+    color: white;
+}
+
+#mainav a:hover{
+    color: red;
+} 
+#sidebar {
+    float: left;
+    width: 300px;
+}
+
+#main {
+    float: right;
+    width: 600px;
+}
+
+#sidebar p, #sidebar h2, #sidebar h3, #sidebar h4, #main p, #main h1, #main h2, #main h3, #main h4 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+p, li {
+    font-size: 1em;
+    line-height: 1.75em;
+}
+
+h2, h3, #sidebar li{
+    font-style: oblique;
+}
+
